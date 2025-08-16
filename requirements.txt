@@ -1,0 +1,9 @@
+# No external dependencies required for items 1 and 2
+# Using only Python standard library:
+# - json for JSON parsing
+# - csv for CSV parsing  
+# - argparse for command line arguments
+# - pathlib for file handling
+# - logging for output
+# - collections for data structures
+# - datetime for timestamp validation
