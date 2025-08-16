@@ -1,0 +1,132 @@
+[
+  {
+    "ndc": "00002323401",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 1.8
+      },
+      {
+        "name": "health",
+        "avg_price": 293.93
+      }
+    ]
+  },
+  {
+    "ndc": "00015066812",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 111.43
+      },
+      {
+        "name": "doctor",
+        "avg_price": 171.7
+      }
+    ]
+  },
+  {
+    "ndc": "00031074998",
+    "chain": [
+      {
+        "name": "health",
+        "avg_price": 151.26
+      },
+      {
+        "name": "doctor",
+        "avg_price": 171.04
+      }
+    ]
+  },
+  {
+    "ndc": "00046110481",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 211.47
+      },
+      {
+        "name": "health",
+        "avg_price": 249.35
+      }
+    ]
+  },
+  {
+    "ndc": "00054027225",
+    "chain": [
+      {
+        "name": "doctor",
+        "avg_price": 413.18
+      },
+      {
+        "name": "health",
+        "avg_price": 532.19
+      }
+    ]
+  },
+  {
+    "ndc": "00078017705",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 78.69
+      },
+      {
+        "name": "doctor",
+        "avg_price": 405.97
+      }
+    ]
+  },
+  {
+    "ndc": "00093752910",
+    "chain": [
+      {
+        "name": "health",
+        "avg_price": 315.76
+      },
+      {
+        "name": "doctor",
+        "avg_price": 620.72
+      }
+    ]
+  },
+  {
+    "ndc": "49884024302",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 83.81
+      },
+      {
+        "name": "doctor",
+        "avg_price": 259.2
+      }
+    ]
+  },
+  {
+    "ndc": "55154445200",
+    "chain": [
+      {
+        "name": "saint",
+        "avg_price": 67.13
+      },
+      {
+        "name": "health",
+        "avg_price": 324.55
+      }
+    ]
+  },
+  {
+    "ndc": "63323036410",
+    "chain": [
+      {
+        "name": "health",
+        "avg_price": 159.83
+      },
+      {
+        "name": "doctor",
+        "avg_price": 453.95
+      }
+    ]
+  }
+]

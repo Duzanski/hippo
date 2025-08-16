@@ -3,7 +3,7 @@
     "npi": "0123456789",
     "ndc": "00002323401",
     "fills": 151,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 8203.0
   },
@@ -11,7 +11,7 @@
     "npi": "0123456789",
     "ndc": "00015066812",
     "fills": 190,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 2296.95
   },
@@ -19,7 +19,7 @@
     "npi": "0123456789",
     "ndc": "00031074998",
     "fills": 159,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 720.26,
     "total_price": 5312505.6
   },
@@ -27,7 +27,7 @@
     "npi": "0123456789",
     "ndc": "00046110481",
     "fills": 162,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 20471.1
   },
@@ -43,7 +43,7 @@
     "npi": "0123456789",
     "ndc": "00078017705",
     "fills": 155,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 14886.9
   },
@@ -51,7 +51,7 @@
     "npi": "0123456789",
     "ndc": "00093752910",
     "fills": 168,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 720.79,
     "total_price": 4998175.2
   },
@@ -67,7 +67,7 @@
     "npi": "0123456789",
     "ndc": "55154445200",
     "fills": 156,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 7242.95
   },
@@ -75,7 +75,7 @@
     "npi": "0123456789",
     "ndc": "63323036410",
     "fills": 162,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 719.34,
     "total_price": 4970282.4
   },
@@ -83,7 +83,7 @@
     "npi": "0987654321",
     "ndc": "00002323401",
     "fills": 97,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 5330.0
   },
@@ -99,7 +99,7 @@
     "npi": "0987654321",
     "ndc": "00031074998",
     "fills": 102,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 717.83,
     "total_price": 3261312.0
   },
@@ -107,7 +107,7 @@
     "npi": "0987654321",
     "ndc": "00046110481",
     "fills": 111,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 9438.45
   },
@@ -123,7 +123,7 @@
     "npi": "0987654321",
     "ndc": "00078017705",
     "fills": 112,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 681.76,
     "total_price": 2610760.15
   },
@@ -131,7 +131,7 @@
     "npi": "0987654321",
     "ndc": "00093752910",
     "fills": 115,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 891.81,
     "total_price": 3580418.5
   },
@@ -147,7 +147,7 @@
     "npi": "0987654321",
     "ndc": "55154445200",
     "fills": 93,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 721.45,
     "total_price": 2431322.4
   },
@@ -155,7 +155,7 @@
     "npi": "0987654321",
     "ndc": "63323036410",
     "fills": 90,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 889.95
   },
@@ -163,7 +163,7 @@
     "npi": "1111111111",
     "ndc": "00002323401",
     "fills": 110,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 12564.25
   },
@@ -171,7 +171,7 @@
     "npi": "1111111111",
     "ndc": "00015066812",
     "fills": 106,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 755.69,
     "total_price": 3733259.5
   },
@@ -179,7 +179,7 @@
     "npi": "1111111111",
     "ndc": "00031074998",
     "fills": 99,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 890.18,
     "total_price": 2987294.2
   },
@@ -187,7 +187,7 @@
     "npi": "1111111111",
     "ndc": "00046110481",
     "fills": 110,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 719.67,
     "total_price": 3314594.4
   },
@@ -195,7 +195,7 @@
     "npi": "1111111111",
     "ndc": "00054027225",
     "fills": 104,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 719.5,
     "total_price": 2910148.8
   },
@@ -211,7 +211,7 @@
     "npi": "1111111111",
     "ndc": "00093752910",
     "fills": 101,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1226.55
   },
@@ -227,7 +227,7 @@
     "npi": "1111111111",
     "ndc": "55154445200",
     "fills": 91,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1038.75
   },
@@ -235,7 +235,7 @@
     "npi": "1111111111",
     "ndc": "63323036410",
     "fills": 112,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 16608.3
   },
@@ -243,7 +243,7 @@
     "npi": "1234567890",
     "ndc": "00002323401",
     "fills": 124,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 889.5,
     "total_price": 4066063.9
   },
@@ -251,7 +251,7 @@
     "npi": "1234567890",
     "ndc": "00015066812",
     "fills": 103,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 717.37,
     "total_price": 3841696.8
   },
@@ -259,7 +259,7 @@
     "npi": "1234567890",
     "ndc": "00031074998",
     "fills": 138,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 14350.65
   },
@@ -275,7 +275,7 @@
     "npi": "1234567890",
     "ndc": "00054027225",
     "fills": 128,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 682.04,
     "total_price": 3433235.8
   },
@@ -283,7 +283,7 @@
     "npi": "1234567890",
     "ndc": "00078017705",
     "fills": 124,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 9788.1
   },
@@ -291,7 +291,7 @@
     "npi": "1234567890",
     "ndc": "00093752910",
     "fills": 139,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 720.02,
     "total_price": 4313013.6
   },
@@ -299,7 +299,7 @@
     "npi": "1234567890",
     "ndc": "49884024302",
     "fills": 130,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1557.15
   },
@@ -315,7 +315,7 @@
     "npi": "1234567890",
     "ndc": "63323036410",
     "fills": 136,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 6405.75
   },
@@ -323,7 +323,7 @@
     "npi": "2222222222",
     "ndc": "00002323401",
     "fills": 86,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 756.04,
     "total_price": 1873750.0
   },
@@ -331,7 +331,7 @@
     "npi": "2222222222",
     "ndc": "00015066812",
     "fills": 84,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 4390.75
   },
@@ -355,7 +355,7 @@
     "npi": "2222222222",
     "ndc": "00054027225",
     "fills": 95,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 14469.55
   },
@@ -363,7 +363,7 @@
     "npi": "2222222222",
     "ndc": "00078017705",
     "fills": 88,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1192.8
   },
@@ -371,7 +371,7 @@
     "npi": "2222222222",
     "ndc": "00093752910",
     "fills": 83,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 718.43,
     "total_price": 3068923.2
   },
@@ -395,7 +395,7 @@
     "npi": "2222222222",
     "ndc": "63323036410",
     "fills": 100,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 891.23,
     "total_price": 3719743.0
   },
@@ -403,7 +403,7 @@
     "npi": "3333333333",
     "ndc": "00002323401",
     "fills": 117,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 10542.0
   },
@@ -411,7 +411,7 @@
     "npi": "3333333333",
     "ndc": "00015066812",
     "fills": 99,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 5657.6
   },
@@ -419,7 +419,7 @@
     "npi": "3333333333",
     "ndc": "00031074998",
     "fills": 133,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 682.77,
     "total_price": 4110349.95
   },
@@ -443,7 +443,7 @@
     "npi": "3333333333",
     "ndc": "00078017705",
     "fills": 135,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 6335.55
   },
@@ -451,7 +451,7 @@
     "npi": "3333333333",
     "ndc": "00093752910",
     "fills": 138,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 176955.7
   },
@@ -459,7 +459,7 @@
     "npi": "3333333333",
     "ndc": "49884024302",
     "fills": 132,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 16921.5
   },
@@ -467,7 +467,7 @@
     "npi": "3333333333",
     "ndc": "55154445200",
     "fills": 127,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 9794.4
   },
@@ -475,7 +475,7 @@
     "npi": "3333333333",
     "ndc": "63323036410",
     "fills": 105,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 717.33,
     "total_price": 3197301.6
   },
@@ -483,7 +483,7 @@
     "npi": "3456789012",
     "ndc": "00002323401",
     "fills": 331,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 39876.45
   },
@@ -491,7 +491,7 @@
     "npi": "3456789012",
     "ndc": "00015066812",
     "fills": 345,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 29707.65
   },
@@ -499,7 +499,7 @@
     "npi": "3456789012",
     "ndc": "00031074998",
     "fills": 308,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 4037.4
   },
@@ -507,7 +507,7 @@
     "npi": "3456789012",
     "ndc": "00046110481",
     "fills": 308,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 17447.95
   },
@@ -515,7 +515,7 @@
     "npi": "3456789012",
     "ndc": "00054027225",
     "fills": 333,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 681.05,
     "total_price": 9192593.65
   },
@@ -523,7 +523,7 @@
     "npi": "3456789012",
     "ndc": "00078017705",
     "fills": 309,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 16867.5
   },
@@ -531,7 +531,7 @@
     "npi": "3456789012",
     "ndc": "00093752910",
     "fills": 328,
-    "reverted": 6,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 37623.15
   },
@@ -547,7 +547,7 @@
     "npi": "3456789012",
     "ndc": "55154445200",
     "fills": 342,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 4234.35
   },
@@ -555,7 +555,7 @@
     "npi": "3456789012",
     "ndc": "63323036410",
     "fills": 330,
-    "reverted": 7,
+    "reverted": 0,
     "avg_price": 681.09,
     "total_price": 10263536.05
   },
@@ -563,7 +563,7 @@
     "npi": "4444444444",
     "ndc": "00002323401",
     "fills": 125,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 9780.75
   },
@@ -571,7 +571,7 @@
     "npi": "4444444444",
     "ndc": "00015066812",
     "fills": 146,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 7575.1
   },
@@ -579,7 +579,7 @@
     "npi": "4444444444",
     "ndc": "00031074998",
     "fills": 104,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 5209.1
   },
@@ -587,7 +587,7 @@
     "npi": "4444444444",
     "ndc": "00046110481",
     "fills": 125,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 11286.45
   },
@@ -595,7 +595,7 @@
     "npi": "4444444444",
     "ndc": "00054027225",
     "fills": 137,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 2047.5
   },
@@ -603,7 +603,7 @@
     "npi": "4444444444",
     "ndc": "00078017705",
     "fills": 103,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 891.58,
     "total_price": 3744069.5
   },
@@ -619,7 +619,7 @@
     "npi": "4444444444",
     "ndc": "49884024302",
     "fills": 107,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 888.73,
     "total_price": 3632167.6
   },
@@ -627,7 +627,7 @@
     "npi": "4444444444",
     "ndc": "55154445200",
     "fills": 143,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 7467.2
   },
@@ -635,7 +635,7 @@
     "npi": "4444444444",
     "ndc": "63323036410",
     "fills": 113,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 889.98,
     "total_price": 4806474.1
   },
@@ -651,7 +651,7 @@
     "npi": "4567890123",
     "ndc": "00015066812",
     "fills": 139,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 7494.5
   },
@@ -659,7 +659,7 @@
     "npi": "4567890123",
     "ndc": "00031074998",
     "fills": 156,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 19667.8
   },
@@ -667,7 +667,7 @@
     "npi": "4567890123",
     "ndc": "00046110481",
     "fills": 142,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.93,
     "total_price": 21555.7
   },
@@ -675,7 +675,7 @@
     "npi": "4567890123",
     "ndc": "00054027225",
     "fills": 145,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 678.72,
     "total_price": 4364563.55
   },
@@ -683,7 +683,7 @@
     "npi": "4567890123",
     "ndc": "00078017705",
     "fills": 162,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 891.08,
     "total_price": 6501367.7
   },
@@ -691,7 +691,7 @@
     "npi": "4567890123",
     "ndc": "00093752910",
     "fills": 125,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 4940.0
   },
@@ -699,7 +699,7 @@
     "npi": "4567890123",
     "ndc": "49884024302",
     "fills": 133,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 10057.95
   },
@@ -707,7 +707,7 @@
     "npi": "4567890123",
     "ndc": "55154445200",
     "fills": 138,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 889.41,
     "total_price": 4906876.2
   },
@@ -715,7 +715,7 @@
     "npi": "4567890123",
     "ndc": "63323036410",
     "fills": 177,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 8656.7
   },
@@ -723,7 +723,7 @@
     "npi": "5555555555",
     "ndc": "00002323401",
     "fills": 163,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 2435.85
   },
@@ -731,7 +731,7 @@
     "npi": "5555555555",
     "ndc": "00015066812",
     "fills": 176,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 23730.7
   },
@@ -747,7 +747,7 @@
     "npi": "5555555555",
     "ndc": "00046110481",
     "fills": 202,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 18592.35
   },
@@ -755,7 +755,7 @@
     "npi": "5555555555",
     "ndc": "00054027225",
     "fills": 193,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 681.35,
     "total_price": 5560922.5
   },
@@ -763,7 +763,7 @@
     "npi": "5555555555",
     "ndc": "00078017705",
     "fills": 175,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 22092.2
   },
@@ -771,7 +771,7 @@
     "npi": "5555555555",
     "ndc": "00093752910",
     "fills": 176,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 682.34,
     "total_price": 4651568.0
   },
@@ -779,7 +779,7 @@
     "npi": "5555555555",
     "ndc": "49884024302",
     "fills": 175,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 21200.45
   },
@@ -787,7 +787,7 @@
     "npi": "5555555555",
     "ndc": "55154445200",
     "fills": 199,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 889.32,
     "total_price": 7189586.5
   },
@@ -795,7 +795,7 @@
     "npi": "5555555555",
     "ndc": "63323036410",
     "fills": 185,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 2316.15
   },
@@ -803,7 +803,7 @@
     "npi": "5678901234",
     "ndc": "00002323401",
     "fills": 100,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 719.67,
     "total_price": 3602462.4
   },
@@ -811,7 +811,7 @@
     "npi": "5678901234",
     "ndc": "00015066812",
     "fills": 99,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 754.7,
     "total_price": 2938414.75
   },
@@ -819,7 +819,7 @@
     "npi": "5678901234",
     "ndc": "00031074998",
     "fills": 94,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 12412.0
   },
@@ -827,7 +827,7 @@
     "npi": "5678901234",
     "ndc": "00046110481",
     "fills": 86,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 719.88,
     "total_price": 2567210.4
   },
@@ -835,7 +835,7 @@
     "npi": "5678901234",
     "ndc": "00054027225",
     "fills": 93,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.91,
     "total_price": 16118.2
   },
@@ -843,7 +843,7 @@
     "npi": "5678901234",
     "ndc": "00078017705",
     "fills": 87,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 723.42,
     "total_price": 2260032.0
   },
@@ -851,7 +851,7 @@
     "npi": "5678901234",
     "ndc": "00093752910",
     "fills": 97,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 9232.65
   },
@@ -859,7 +859,7 @@
     "npi": "5678901234",
     "ndc": "49884024302",
     "fills": 93,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 8958.6
   },
@@ -875,7 +875,7 @@
     "npi": "5678901234",
     "ndc": "63323036410",
     "fills": 99,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 889.07,
     "total_price": 3095215.4
   },
@@ -891,7 +891,7 @@
     "npi": "6666666666",
     "ndc": "00015066812",
     "fills": 124,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 11271.75
   },
@@ -899,7 +899,7 @@
     "npi": "6666666666",
     "ndc": "00031074998",
     "fills": 107,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 718.96,
     "total_price": 3953983.2
   },
@@ -907,7 +907,7 @@
     "npi": "6666666666",
     "ndc": "00046110481",
     "fills": 131,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 891.35,
     "total_price": 5107680.4
   },
@@ -923,7 +923,7 @@
     "npi": "6666666666",
     "ndc": "00078017705",
     "fills": 117,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1903.95
   },
@@ -931,7 +931,7 @@
     "npi": "6666666666",
     "ndc": "00093752910",
     "fills": 127,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 9737.7
   },
@@ -939,7 +939,7 @@
     "npi": "6666666666",
     "ndc": "49884024302",
     "fills": 117,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 684.05,
     "total_price": 2524557.4
   },
@@ -947,7 +947,7 @@
     "npi": "6666666666",
     "ndc": "55154445200",
     "fills": 128,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1950.75
   },
@@ -971,7 +971,7 @@
     "npi": "7777777777",
     "ndc": "00015066812",
     "fills": 96,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 891.51,
     "total_price": 2648492.4
   },
@@ -979,7 +979,7 @@
     "npi": "7777777777",
     "ndc": "00031074998",
     "fills": 93,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 5460.0
   },
@@ -987,7 +987,7 @@
     "npi": "7777777777",
     "ndc": "00046110481",
     "fills": 87,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 755.96,
     "total_price": 2859342.5
   },
@@ -995,7 +995,7 @@
     "npi": "7777777777",
     "ndc": "00054027225",
     "fills": 88,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 679.46,
     "total_price": 3594485.65
   },
@@ -1003,7 +1003,7 @@
     "npi": "7777777777",
     "ndc": "00078017705",
     "fills": 96,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1385.85
   },
@@ -1019,7 +1019,7 @@
     "npi": "7777777777",
     "ndc": "49884024302",
     "fills": 91,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 677.96,
     "total_price": 2569180.0
   },
@@ -1027,7 +1027,7 @@
     "npi": "7777777777",
     "ndc": "55154445200",
     "fills": 102,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 681.07,
     "total_price": 3013377.7
   },
@@ -1051,7 +1051,7 @@
     "npi": "7890123456",
     "ndc": "00015066812",
     "fills": 139,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 10513.65
   },
@@ -1059,7 +1059,7 @@
     "npi": "7890123456",
     "ndc": "00031074998",
     "fills": 109,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 12555.55
   },
@@ -1067,7 +1067,7 @@
     "npi": "7890123456",
     "ndc": "00046110481",
     "fills": 113,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 681.71,
     "total_price": 2932583.75
   },
@@ -1075,7 +1075,7 @@
     "npi": "7890123456",
     "ndc": "00054027225",
     "fills": 135,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1975.65
   },
@@ -1083,7 +1083,7 @@
     "npi": "7890123456",
     "ndc": "00078017705",
     "fills": 121,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 889.63,
     "total_price": 4744552.1
   },
@@ -1091,7 +1091,7 @@
     "npi": "7890123456",
     "ndc": "00093752910",
     "fills": 132,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 719.6,
     "total_price": 3562768.8
   },
@@ -1099,7 +1099,7 @@
     "npi": "7890123456",
     "ndc": "49884024302",
     "fills": 129,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 14878.45
   },
@@ -1107,7 +1107,7 @@
     "npi": "7890123456",
     "ndc": "55154445200",
     "fills": 127,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 12507.6
   },
@@ -1115,7 +1115,7 @@
     "npi": "7890123456",
     "ndc": "63323036410",
     "fills": 111,
-    "reverted": 5,
+    "reverted": 0,
     "avg_price": 753.72,
     "total_price": 3392986.5
   },
@@ -1123,7 +1123,7 @@
     "npi": "8888888888",
     "ndc": "00002323401",
     "fills": 83,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 683.23,
     "total_price": 2421114.1
   },
@@ -1139,7 +1139,7 @@
     "npi": "8888888888",
     "ndc": "00031074998",
     "fills": 71,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 760.06,
     "total_price": 2249999.0
   },
@@ -1147,7 +1147,7 @@
     "npi": "8888888888",
     "ndc": "00046110481",
     "fills": 64,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 3667.3
   },
@@ -1187,7 +1187,7 @@
     "npi": "8888888888",
     "ndc": "55154445200",
     "fills": 74,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 888.34,
     "total_price": 3159348.9
   },
@@ -1195,7 +1195,7 @@
     "npi": "8888888888",
     "ndc": "63323036410",
     "fills": 69,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 892.61,
     "total_price": 2841335.2
   },
@@ -1203,7 +1203,7 @@
     "npi": "8901234567",
     "ndc": "00002323401",
     "fills": 151,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 20252.15
   },
@@ -1219,7 +1219,7 @@
     "npi": "8901234567",
     "ndc": "00031074998",
     "fills": 137,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 11937.45
   },
@@ -1235,7 +1235,7 @@
     "npi": "8901234567",
     "ndc": "00054027225",
     "fills": 158,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 681.72,
     "total_price": 4045444.35
   },
@@ -1243,7 +1243,7 @@
     "npi": "8901234567",
     "ndc": "00078017705",
     "fills": 151,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 719.05,
     "total_price": 4913781.6
   },
@@ -1251,7 +1251,7 @@
     "npi": "8901234567",
     "ndc": "00093752910",
     "fills": 156,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 753.4,
     "total_price": 4803920.25
   },
@@ -1267,7 +1267,7 @@
     "npi": "8901234567",
     "ndc": "55154445200",
     "fills": 151,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 12119.1
   },
@@ -1275,7 +1275,7 @@
     "npi": "8901234567",
     "ndc": "63323036410",
     "fills": 147,
-    "reverted": 4,
+    "reverted": 0,
     "avg_price": 2.12,
     "total_price": 12007.8
   },
@@ -1283,7 +1283,7 @@
     "npi": "9999999999",
     "ndc": "00002323401",
     "fills": 151,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 2130.9
   },
@@ -1291,7 +1291,7 @@
     "npi": "9999999999",
     "ndc": "00015066812",
     "fills": 164,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 681.25,
     "total_price": 4494036.7
   },
@@ -1307,7 +1307,7 @@
     "npi": "9999999999",
     "ndc": "00046110481",
     "fills": 142,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 0.3,
     "total_price": 1849.35
   },
@@ -1315,7 +1315,7 @@
     "npi": "9999999999",
     "ndc": "00054027225",
     "fills": 152,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 890.78,
     "total_price": 5115199.5
   },
@@ -1331,7 +1331,7 @@
     "npi": "9999999999",
     "ndc": "00093752910",
     "fills": 153,
-    "reverted": 2,
+    "reverted": 0,
     "avg_price": 2.11,
     "total_price": 13867.35
   },
@@ -1339,7 +1339,7 @@
     "npi": "9999999999",
     "ndc": "49884024302",
     "fills": 179,
-    "reverted": 3,
+    "reverted": 0,
     "avg_price": 1.31,
     "total_price": 9228.7
   },
@@ -1347,7 +1347,7 @@
     "npi": "9999999999",
     "ndc": "55154445200",
     "fills": 170,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 2.92,
     "total_price": 19744.65
   },
@@ -1355,7 +1355,7 @@
     "npi": "9999999999",
     "ndc": "63323036410",
     "fills": 170,
-    "reverted": 1,
+    "reverted": 0,
     "avg_price": 894.36,
     "total_price": 6388581.2
   }

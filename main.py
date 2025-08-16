@@ -1,17 +1,11 @@
-#!/usr/bin/env python3
-"""
-Data Engineering Challenge - Pharmacy Claims Processing
-Handles items 1 and 2: Read data and calculate metrics
-"""
-
 import json
 import csv
 import argparse
 from pathlib import Path
 from typing import Dict, List, Set
-from datetime import datetime
 from collections import defaultdict
 import logging
+import pandas as pd
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -198,54 +192,151 @@ class PharmacyDataProcessor:
 
         logger.info(f"Results saved successfully to {output_file}")
 
+    def analyze_chain_recommendations(self) -> List[Dict]:
+        """Item 3: Top 2 chains by drug with lowest average unit prices."""
+        logger.info("Analyzing chain recommendations...")
+
+        # Create DataFrame from claims data
+        claims_data = []
+        for claim in self.claims:
+            npi = claim["npi"]
+            if npi in self.pharmacies:
+                claims_data.append(
+                    {
+                        "ndc": claim["ndc"],
+                        "npi": npi,
+                        "chain": self.pharmacies[npi],
+                        "price": float(claim["price"]),
+                        "quantity": int(claim["quantity"]),
+                    }
+                )
+
+        if not claims_data:
+            logger.warning("No valid claims data for chain analysis")
+            return []
+
+        df = pd.DataFrame(claims_data)
+
+        df["unit_price"] = df["price"] / df["quantity"]
+
+        chain_avg = df.groupby(["ndc", "chain"])["unit_price"].mean().reset_index()
+        chain_avg.columns = ["ndc", "chain", "avg_price"]
+
+        results = []
+        for ndc in chain_avg["ndc"].unique():
+            ndc_data = (
+                chain_avg[chain_avg["ndc"] == ndc].sort_values("avg_price").head(2)
+            )
+
+            chain_list = []
+            for _, row in ndc_data.iterrows():
+                chain_list.append(
+                    {"name": row["chain"], "avg_price": round(row["avg_price"], 2)}
+                )
+
+            results.append({"ndc": ndc, "chain": chain_list})
+
+        results.sort(key=lambda x: x["ndc"])
+
+        logger.info(f"Generated chain recommendations for {len(results)} drugs")
+        return results
+
+    def analyze_common_quantities(self) -> List[Dict]:
+        """Item 4: Most common quantities prescribed per drug."""
+        logger.info("Analyzing common quantities...")
+
+        # Create DataFrame from claims data
+        claims_data = []
+        for claim in self.claims:
+            if claim["npi"] in self.pharmacies:
+                claims_data.append(
+                    {
+                        "ndc": claim["ndc"],
+                        "quantity": float(claim["quantity"]),
+                    }
+                )
+
+        if not claims_data:
+            logger.warning("No valid claims data for quantity analysis")
+            return []
+
+        df = pd.DataFrame(claims_data)
+
+        results = []
+        for ndc in df["ndc"].unique():
+            ndc_data = df[df["ndc"] == ndc]
+
+            # Get the most common quantities (top 5)
+            quantity_counts = ndc_data["quantity"].value_counts().head(5)
+            most_prescribed = quantity_counts.index.tolist()
+
+            results.append({"ndc": ndc, "most_prescribed_quantity": most_prescribed})
+
+        results.sort(key=lambda x: x["ndc"])
+
+        logger.info(f"Generated quantity analysis for {len(results)} drugs")
+        return results
+
 
 def main():
     """Main entry point."""
-    # parser = argparse.ArgumentParser(description="Process pharmacy claims data")
-    # parser.add_argument(
-    #     "--pharmacy-dir",
-    #     required=True,
-    #     help="Directory containing pharmacy CSV files",
-    # )
-    # # parser.add_argument(
-    #     "--claims-dir",
-    #     required=True,
-    #     help="Directory containing claims JSON files",
-    # )
-    # parser.add_argument(
-    #     "--reverts-dir",
-    #     required=True,
-    #     help="Directory containing reverts JSON files",
-    # )
-    # parser.add_argument(
-    #     "--output",
-    #     "-o",
-    #     default="metrics_output.json",
-    #     help="Output JSON file (default: metrics_output.json)",
-    # )
+    parser = argparse.ArgumentParser(description="Process pharmacy claims data")
+    parser.add_argument(
+        "--pharmacy-dir",
+        required=True,
+        help="Directory containing pharmacy CSV files",
+    )
+    parser.add_argument(
+        "--claims-dir",
+        required=True,
+        help="Directory containing claims JSON files",
+    )
+    parser.add_argument(
+        "--reverts-dir",
+        required=True,
+        help="Directory containing reverts JSON files",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        default="metrics_output.json",
+        help="Output JSON file (default: metrics_output.json)",
+    )
 
-    # args = parser.parse_args()
+    args = parser.parse_args()
 
     # Initialize processor
     processor = PharmacyDataProcessor()
 
     try:
         # Load data
-        processor.load_pharmacies("data/pharmacies")
-        processor.load_claims("data/claims")
-        processor.load_reverts("data/reverts")
-        # processor.load_pharmacies(args.pharmacy_dir)
-        # processor.load_claims(args.claims_dir)
-        # processor.load_reverts(args.reverts_dir)
+        # processor.load_pharmacies("data/pharmacies")
+        # processor.load_claims("data/claims")
+        # processor.load_reverts("data/reverts")
+        processor.load_pharmacies(args.pharmacy_dir)
+        processor.load_claims(args.claims_dir)
+        processor.load_reverts(args.reverts_dir)
 
-        # Calculate metrics
+        # Calculate metrics (Items 1 & 2)
         results = processor.calculate_metrics()
-
-        # Save results
         processor.save_results(results, "metrics_output.json")
 
+        # Analyze chain recommendations (Item 3)
+        chain_recommendations = processor.analyze_chain_recommendations()
+        processor.save_results(chain_recommendations, "chain_recommendations.json")
+
+        # Analyze common quantities (Item 4)
+        quantity_analysis = processor.analyze_common_quantities()
+        processor.save_results(quantity_analysis, "quantity_analysis.json")
+
         logger.info("Processing completed successfully!")
-        # logger.info(f"Total combinations processed: {len(results)}")
+        logger.info(f"Items 1-2: {len(results)} npi/ndc combinations processed")
+        logger.info(
+            f"Item 3: {len(chain_recommendations)} drugs analyzed for chain recommendations"
+        )
+        logger.info(
+            f"Item 4: {len(quantity_analysis)} drugs analyzed for quantity patterns"
+        )
 
     except Exception as e:
         logger.error(f"Error during processing: {e}")
